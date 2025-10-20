@@ -1,0 +1,20 @@
+session_name: carto
+windows:
+  - window_name: main terminal
+    shell_command_before:
+      - cd "$PERSONAL_ROOT/carto" # run as a first command in all panes
+    panes:
+      - shell_command: # pane no. 1
+          - git status
+  - window_name: q/a
+    shell_command_before:
+      - cd "$PERSONAL_ROOT/carto" # run as a first command in all panes
+    panes:
+      - claude
+  - window_name: debugging
+    shell_command_before:
+      - cd "$PERSONAL_ROOT/carto" # run as a first command in all panes
+    panes:
+      - 
+      - 
+    
