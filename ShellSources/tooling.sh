@@ -82,3 +82,19 @@ function ssh_history(){
     fi
     history | grep -v 'grep' | grep -v 'ossh' | grep -o 'ssh .*' | uniq | tail -n $cnt
 }
+
+
+# ----- zoxide
+
+SHELL_NAME=""
+case "$SHELL" in
+    */bash)
+        SHELL_NAME="bash"
+        ;;
+    */zsh)
+        SHELL_NAME="zsh"
+        ;;
+esac
+
+
+eval "$(zoxide init $SHELL_NAME)"

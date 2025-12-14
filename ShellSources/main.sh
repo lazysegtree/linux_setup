@@ -10,5 +10,4 @@ source $ROOT_DIR/temp_dev.sh
 source $ROOT_DIR/tooling.sh
 
 
-eval "$(zoxide init zsh)"
 
