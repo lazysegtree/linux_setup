@@ -85,16 +85,4 @@ function ssh_history(){
 
 
 # ----- zoxide
-
-SHELL_NAME=""
-case "$SHELL" in
-    */bash)
-        SHELL_NAME="bash"
-        ;;
-    */zsh)
-        SHELL_NAME="zsh"
-        ;;
-esac
-
-echo "Init done for $SHELL_NAME shell"
 eval "$(zoxide init $SHELL_NAME)"
