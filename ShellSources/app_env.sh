@@ -6,6 +6,4 @@ alias mysql="/Applications/MySQLWorkbench.app/Contents/MacOS/mysql"
 alias colima0.5.3="~/bin/colima-Darwin-arm64"
 
 
-eval "$(zoxide init zsh)"
-
 export PATH="/Users/nitin/.local/bin:$PATH"
