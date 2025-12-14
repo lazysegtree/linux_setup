@@ -20,6 +20,7 @@ source $ROOT_DIR/app_env.sh
 source $ROOT_DIR/docs.sh
 source $ROOT_DIR/other.sh
 source $ROOT_DIR/spf.sh
+source $ROOT_DIR/shell_customization.sh
 source $ROOT_DIR/tooling.sh
 
 
