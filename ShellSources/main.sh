@@ -1,4 +1,4 @@
-ROOT_DIR="$(dirname $0)"
+ROOT_DIR="$(dirname "${BASH_SOURCE[0]:-$0}")"
 PERSONAL_ROOT="$(realpath $ROOT_DIR/..)"
 SHARED_ROOT="$PERSONAL_ROOT/shared"
 
