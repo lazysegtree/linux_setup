@@ -96,5 +96,5 @@ case "$SHELL" in
         ;;
 esac
 
-
+echo "Init done for $SHELL_NAME shell"
 eval "$(zoxide init $SHELL_NAME)"
