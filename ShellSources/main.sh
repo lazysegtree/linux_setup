@@ -12,7 +12,7 @@ esac
 
 
 ROOT_DIR="$(dirname $SOURCE)"
-PERSONAL_ROOT="$(realpath $ROOT_DIR/..)"
+PERSONAL_ROOT="$(realpath $ROOT_DIR/../..)"
 SHARED_ROOT="$PERSONAL_ROOT/shared"
 
 source $ROOT_DIR/plugin.sh

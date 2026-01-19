@@ -2,7 +2,7 @@
 
 export SPF_FILES="$HOME/Library/Application Support/superfile"
 export SPF_LOG="$HOME/Library/Application Support/superfile/superfile.log"
-export SPF_SRC="$HOME/Programming/superfile"
+export SPF_SRC="$PERSONAL_ROOT/superfile"
 alias build_spft="(cd $SPF_SRC && time ./build.sh)"
 alias new_spft="build_spft && spft"
 
