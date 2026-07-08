@@ -8,6 +8,8 @@ vim.lsp.config('harper_ls', {
   },
 })
 vim.lsp.enable('harper_ls')
+-- system clipboard
+vim.opt.clipboard = "unnamedplus"
 
 -- disable netrw at the very start of your init.lua
 vim.g.loaded_netrw = 1

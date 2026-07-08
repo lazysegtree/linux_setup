@@ -6,7 +6,7 @@
 WORKSPACE_DIR="/workspace/superfile"
 SNAME="main"
 
-cd "$WORKSPACE_DIR" 2>/dev/null || cd /workspace
+cd "$WORKSPACE_DIR"
 
 # Check if tmux session exists
 if tmux has-session -t "$SNAME" 2>/dev/null; then
