@@ -1,5 +1,14 @@
 require("config.lazy")
 
+vim.lsp.config('harper_ls', {
+  settings = {
+    ["harper-ls"] = {
+      userDictPath = "~/dict.txt"
+    }
+  },
+})
+vim.lsp.enable('harper_ls')
+
 -- disable netrw at the very start of your init.lua
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1

@@ -1,4 +1,4 @@
-# Setup
+ Setup
 
 Install
 - git and xcode tools
@@ -17,3 +17,6 @@ Install
 - golang
 - golangci-lint
 - gopls
+
+
+Karabiner-Elements to disable command tab

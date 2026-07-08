@@ -13,7 +13,7 @@ if [ ! -d "$1" ]; then
 fi
 
 PROJECT_DIR="$(cd -- "$1" && pwd)"
-SESSION_NAME="resume"
+SESSION_NAME="$(basename "$PROJECT_DIR")"
 
 if ! tmux has-session -t "$SESSION_NAME" 2>/dev/null; then
   tmux new-session -d -s "$SESSION_NAME" -n editor -c "$PROJECT_DIR"
